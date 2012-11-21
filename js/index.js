@@ -29,7 +29,7 @@ var
     difference = subtract(data1, data2).map(function(i) {return (i+200)%200}),
     g1 = new SawGraph('#graph1', 'steelblue'),
     g2 = new SawGraph('#graph2', 'green'),
-    g3 = new SawGraph('#graph3', 'yellow');
+    g3 = new SawGraph('#graph3', 'red');
 
     g1.draw(data1);
     g2.draw(data2);
