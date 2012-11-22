@@ -5,6 +5,13 @@
     <script src="http://d3js.org/d3.v2.js"></script>
     <script src="js/index.js"></script>
     <style>
+        #controls {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 150px;
+            padding: 10px;
+        }
         div[id^="graph"] {
             width: 500px;
             height: 300px;
@@ -12,6 +19,10 @@
     </style>
 </head>
 <body>
+    <form id="controls">
+        <label for="increment">Increment:</label>
+        <input type="number" id="increment" value="10"/>
+    </form>
     <div id="graph1"></div>
     <div id="graph2"></div>
     <div id="graph3"></div>
